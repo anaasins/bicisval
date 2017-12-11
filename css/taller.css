@@ -1,0 +1,12 @@
+/*css para la pagina de taller */
+article h2, article p{
+  float: left;
+  margin: 2%;
+  margin-bottom: 5%;
+  width: 20%;
+}
+article h2{
+  font-weight: bold;
+  color: darkblue;
+  font-variant: small-caps;
+}

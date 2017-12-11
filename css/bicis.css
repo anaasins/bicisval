@@ -1,0 +1,14 @@
+/* css para la pagina de alquiler y de venta de bicis*/
+.bici{
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+.bici img, .bici p{
+  margin-left: 20%;
+}
+.bici p{
+  font-size: 20px;
+  color: darkblue;
+  
+}

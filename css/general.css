@@ -1,0 +1,71 @@
+/*ASPECTOS DE CSS APLICABLES A TODAS LAS PAGINAS */
+*{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(225, 204, 252);
+}
+/*Header de la pagina con el logo y el menú */
+header{
+  float: left;
+  clear: both;
+  margin: 2%;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  background-color: rgba(6, 34, 6, 0.27);
+}
+/* logo */
+#logo{
+  width: 10%;
+  float: left;
+  margin: 0.5%;
+  margin-left: 0;
+}
+/* menu*/
+nav{
+  float: left;
+  font-variant: small-caps;
+  margin-left: 5%;
+  margin-top: 6%;
+  width: 60%;
+}
+nav a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 4%;
+  color: green;
+}
+nav a:hover{
+  color: green;
+  font-weight: bold;
+  font-size: 35px;
+}
+#idioma{
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+#idioma a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+
+}
+/* footer de la pagina con información de esta*/
+footer{
+  background-color: rgba(6, 34, 6, 0.27);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.derecha, .izquierda{
+  margin: 0.5%;
+  float: left;
+}
+.derecha{
+  margin-left: 80%;
+}

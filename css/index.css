@@ -1,0 +1,10 @@
+/* CSS PARA ASPECTOS DEL INDEX QUE NO ENTRAN EN GENERAL*/
+#principal{
+  width: 60%;
+  margin-left: 20%;
+  height:50px;
+}
+#principal p{
+  font-size: 30px;
+  line-height: 2;
+}
